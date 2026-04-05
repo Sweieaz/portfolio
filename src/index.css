@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+@font-face {
+  font-family: "Marcellus";
+  src: url("/src/assets/fonts/Marcellus-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MonteserratAlt1";
+  src: url("/src/assets/fonts/MontserratAlt1-Light.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MonteserratAlt2";
+  src: url("/src/assets/fonts/MontserratAlt1-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@theme {
+  --font-primary: "Marcellus", sans-serif;
+  --font-secondary: "MonteserratAlt1", sans-serif;
+  --font-secondary2: "MonteserratAlt2", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
