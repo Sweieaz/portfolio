@@ -2,10 +2,10 @@ function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-end justify-center bg-cover bg-center "
-      style={{ backgroundImage: "url('./images/hero2.png')" }}
+      className="min-h-screen flex items-end justify-center bg-cover bg-center transition-opacity duration-1000 opacity-100"
+      style={{ backgroundImage: "url('/images/hero2.png')" }}
     >
-      <div className="space-y-6 relative  md:mb-10 z-10 max-w-7xl mx-auto px-4 lg:px-8 py-10 bg-white/50 md:rounded-2xl">
+      <div className="space-y-6 relative md:mb-10 z-10 max-w-7xl mx-auto px-4 lg:px-8 py-10 bg-white/50 md:rounded-2xl">
         <h1 className="text-5xl font-bold text-gray-800 mb-6 font-secondary">
           Hi, I'm Tijjan Samoka
         </h1>
