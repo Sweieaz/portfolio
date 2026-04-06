@@ -4,29 +4,29 @@ const STACK = [
   {
     title: "Backend",
     items: [
-      { name: "Node.js", icon: "/src/assets/images/node.webp" },
-      { name: "Express", icon: "/src/assets/images/express.png" },
+      { name: "Node.js", icon: "/images/node.webp" },
+      { name: "Express", icon: "/images/express.png" },
     ],
   },
   {
     title: "Frontend",
     featured: true,
     items: [
-      { name: "React", icon: "/src/assets/images/react.webp" },
-      { name: "Next.js", icon: "/src/assets/images/next.webp" },
-      { name: "TypeScript", icon: "/src/assets/images/ts.jpeg" },
-      { name: "JavaScript", icon: "/src/assets/images/js.webp" },
-      { name: "HTML5", icon: "/src/assets/images/html.jpg" },
-      { name: "CSS3", icon: "/src/assets/images/css.webp" },
-      { name: "Tailwind", icon: "/src/assets/images/tailwind.webp" },
+      { name: "React", icon: "/images/react.webp" },
+      { name: "Next.js", icon: "/images/next.webp" },
+      { name: "TypeScript", icon: "/images/ts.jpeg" },
+      { name: "JavaScript", icon: "/images/js.webp" },
+      { name: "HTML5", icon: "/images/html.jpg" },
+      { name: "CSS3", icon: "/images/css.webp" },
+      { name: "Tailwind", icon: "/images/tailwind.webp" },
     ],
   },
   {
     title: "Tools",
     items: [
-      { name: "Git", icon: "/src/assets/images/git.webp" },
-      { name: "GitHub", icon: "/src/assets/images/github.jpeg" },
-      { name: "Postman", icon: "/src/assets/images/postman.avif" },
+      { name: "Git", icon: "/images/git.webp" },
+      { name: "GitHub", icon: "/images/github.jpeg" },
+      { name: "Postman", icon: "/images/postman.avif" },
     ],
   },
 ];

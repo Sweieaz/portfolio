@@ -3,7 +3,7 @@ function Projects() {
     {
       title: "Kalority | Home Website",
       company: "Kalority Ventures",
-      image: "/src/assets/images/kalority.png",
+      image: "/images/kalority.png",
       link: "https://www.kalority.com/",
       description:
         "Designed and developed the company’s official website with a strong focus on responsiveness and modern UI design. Implemented responsive layouts to ensure optimal user experience across desktop, tablet, and mobile devices.",
@@ -12,7 +12,7 @@ function Projects() {
     {
       title: "Enssy Enterprises Website",
       company: "Enssy Enterprises",
-      image: "/src/assets/images/enssy.png",
+      image: "/images/enssy.png",
 
       link: "https://www.enssy.co.ke/",
       description:
@@ -22,7 +22,7 @@ function Projects() {
     {
       title: "SAVIX Platform Improvements",
       company: "The SAVIX",
-      image: "/src/assets/images/savix.png",
+      image: "/images/savix.png",
       description:
         "Improved the design and responsiveness of the SAVIX pricing page. Implemented contact email functionality and contributed to ongoing improvements of the SAVIX MIS platform including API mocking and frontend testing.",
       tech: "JavaScript • Tailwind CSS • API Integration",
@@ -37,7 +37,7 @@ function Projects() {
     {
       title: "SAVIX Billing System (In Progress)",
       company: "The SAVIX",
-      image: "/src/assets/images/savix-billing.png",
+      image: "/images/savix-billing.png",
       description:
         "Currently contributing to rebuilding the UI of the SAVIX billing system. Developed billing account features and implemented frontend logic for account management. Integrated mock APIs for testing and validation, and worked with modern tools such as Zod for schema validation and TanStack for state and data handling.",
       tech: "React • TypeScript • Tailwind CSS • Zod • TanStack • API Mocking",
