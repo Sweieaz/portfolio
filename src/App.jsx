@@ -14,10 +14,10 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 4000);
-    return () => clearTimeout(timer);
+    const img = new Image();
+    img.src = "/images/hero2.png";
+    img.onload = () => setLoading(false);
+    img.onerror = () => setLoading(false);
   }, []);
 
   if (loading) {
