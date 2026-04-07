@@ -16,26 +16,43 @@ function App() {
   useEffect(() => {
     const img = new Image();
     img.src = "/images/hero2.png";
-    img.onload = () => setLoading(false);
-    img.onerror = () => setLoading(false);
+
+    const minDelay = new Promise((resolve) => setTimeout(resolve, 3000));
+
+    const loadImage = new Promise((resolve) => {
+      img.onload = resolve;
+      img.onerror = resolve;
+    });
+    Promise.all([minDelay, loadImage]).then(() => {
+      setLoading(false);
+    });
   }, []);
 
-  if (loading) {
-    return <Loader />;
-  }
-
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Skills />
-      <Stack />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
+    <div className="relative">
+      <div
+        className={`fixed inset-0 z-50 flex items-center justify-center bg-gray-900 transition-opacity duration-700 ${
+          loading ? "opacity-100" : "opacity-0 pointer-events-none"
+        }`}
+      >
+        <Loader />
+      </div>
+      <div
+        className={`transition-opacity duration-700 ${
+          loading ? "opacity-0" : "opacity-100"
+        }`}
+      >
+        <Navbar />
+        <Hero />
+        <About />
+        <Services />
+        <Skills />
+        <Stack />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
