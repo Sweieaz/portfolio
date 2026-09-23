@@ -20,31 +20,30 @@ function Projects() {
       tech: "HTML • CSS • JavaScript • Tailwind CSS",
     },
     {
-      title: "SAVIX Platform Improvements",
+      title: "SAVIX MIS",
       company: "The SAVIX",
       image: "/images/savix.png",
       description:
         "Improved the design and responsiveness of the SAVIX pricing page. Implemented contact email functionality and contributed to ongoing improvements of the SAVIX MIS platform including API mocking and frontend testing.",
-      tech: "JavaScript • Tailwind CSS • API Integration",
+      tech: "JavaScript • Tailwind CSS • API Integration • Email.js",
       links: [
         {
           label: "The SAVIX",
           url: "https://thesavix.org",
         },
-        { label: "MIS Platform", url: "https://mis.thesavix.org/login" },
       ],
     },
     {
-      title: "SAVIX Billing System (In Progress)",
+      title: "SAVIX Billing",
       company: "The SAVIX",
       image: "/images/savix-billing.png",
       description:
-        "Currently contributing to rebuilding the UI of the SAVIX billing system. Developed billing account features and implemented frontend logic for account management. Integrated mock APIs for testing and validation, and worked with modern tools such as Zod for schema validation and TanStack for state and data handling.",
-      tech: "React • TypeScript • Tailwind CSS • Zod • TanStack • API Mocking",
+        "Contributed to rebuilding the UI of the SAVIX billing system. Developed billing account features and implemented frontend logic for account management. Integrated mock APIs for testing and validation, and worked with modern tools such as Zod for schema validation and TanStack for state and data handling.",
+      tech: "React + Vite • TypeScript • Tailwind CSS • TanStack Query • REST APIs",
       links: [
         {
-          label: "Coming Soon",
-          url: "#",
+          label: "SAVIX Billing",
+          url: "https://billing.thesavix.org/",
         },
       ],
     },
